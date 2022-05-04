@@ -15,7 +15,7 @@ body {
     line-height: 1.5;
     margin: 0 auto;
     max-width: 800px;
-    padding: 2em 2em em;
+    padding: 2em 2em 4em;
 }
 
 p {
@@ -69,7 +69,7 @@ img {
     margin-top: 0;
 }
 
-.image1, .image2, .image3, .image4, .image5, .image6 {
+.image1, .image2, .image3, .image4, .image5, .image6, .image7 {
     width: 500px;
 }
 
