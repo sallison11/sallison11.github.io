@@ -6,7 +6,7 @@ html {
 
 body {
     background-color: #242323;
-    background-image: url(OldPaper.jpeg);
+    background-image: url("OldPaper.jpeg");
     background-image
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #545454;
