@@ -10,7 +10,7 @@ body {
     background-image
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
     color: #545454;
-    font-family: "Trattatello", Helvetica, Arial, sans-serif;
+    font-family: "Trattatello";
     font-size: 16px;
     line-height: 1.5;
     margin: 0 auto;
@@ -35,18 +35,6 @@ h1{
 h2 {
     font: 15px Times New Roman, serif;
     color: black;
-}
-
-a {
-    color: #0083e8;
-}
-
-b, strong {
-    font-weight: 600;
-}
-
-samp {
-    display: none;
 }
 
 img {
