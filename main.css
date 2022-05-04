@@ -1,0 +1,70 @@
+html {
+    background: Black;
+    
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background-color: #242323;
+    background-image: url(OldPaper.jpeg);
+    background-image
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "Trattatello", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    color: #542E2F;
+}
+
+h1{
+    color: #542E2F;
+    font-weight: 100;
+    line-height: 1;
+    font-size: 55px;
+    text-align: center;
+}
+
+h2 {
+    font: 15px Times New Roman, serif;
+    color: black;
+}
+
+a {
+    color: #0083e8;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+samp {
+    display: none;
+}
+
+img {
+    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
+    background: transparent;
+    display: block;
+    margin: 1.3em auto;
+    margin-bottom: 3em;
+    max-width: 95%;
+}
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
